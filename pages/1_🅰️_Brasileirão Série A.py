@@ -5,4 +5,6 @@ import streamlit as st
 st.set_page_config(page_title='🅰️ Brasileirão Série A',
                    page_icon='🅰️')
 
-st.write('# Em construção.⛏️🚧')
+st.write("# 🅰️ Brasileirão Série A")
+
+st.write('### Em construção.⛏️🚧')
