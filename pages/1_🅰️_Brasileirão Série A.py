@@ -12,11 +12,10 @@ st.write("# 🅰️ Brasileirão Série A")
 st.write('### Em construção.⛏️🚧')
 
 ########## INSERÇÃO DE DADOS ##############
-@st.cache
+# data_url = r"D:\STREAMLIT\futmat\planilhas\serie-a\serie-a-gols.csv"
 
-DATA_URL = ('https://github.com/davidsonsantana89/futmat/blob/main/planilhas/serie-a/serie-a-gols.xlsx'
-)
-data = pd.read_excel(DATA_URL)
-st.write(data)
+DATA_URL = "https://github.com/davidsonsantana89/futmat/tree/main/planilhas/serie-a"
+data = pd.read_csv(DATA_URL,sep=';')
+# st.write(data)
 
 # hist_values = np.histogram()
